@@ -202,8 +202,8 @@ env: -----------------> list/array ----------> with configmap way(to get specfic
       - name: APP_COLOR  
         valueFrom:
             configMAPKeyRef:
-                name:
-                value:
+                name:    -----> configmap name
+                key:     ---> key on configmap jis k against ap na value leni ha env k lye..
                  
 
 like for Secret our env would look like.
@@ -247,7 +247,7 @@ spec:
       - "5000"
     envFrom:          -------> here we referring name of configmap to pod  so pod can get env information from configmap.
         - configMapRef:
-            name: app-config
+            name: app-config        --> configmap name
 
 command to create configMAP
 ===========================
@@ -306,7 +306,7 @@ spec:
       - "5000"
     envFrom:          -------> here we referring name of configmap to pod,  so pod can get env information from configmap.(ingesting the entire ConfigMap as a single environmental variable.)
         - configMapRef:
-            name: app-config
+            name: app-config      ---> configmap name
 
 ingests the entire ConfigMap as a single environmental
 ------------------------------------------------------
