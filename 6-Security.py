@@ -81,7 +81,7 @@ so for this we have two users...
 
 remember 
    
-    1-kubernetes manage ni user accounts ko natively. y relie kerta ha external source like "file with user detail" or "certificate per" or third party identity service like "LDAP" per to manage these users.
+    1-kubernetes manage ni krta user accounts ko natively. y relie kerta ha external source like "file with user detail" or "certificate per" or third party identity service like "LDAP" per to manage these users.
 
     is lye ap kubernetes cluster ma users create ni ker sakthy but "user list" ker sakhty hn.. like "kubectl list users"
 
