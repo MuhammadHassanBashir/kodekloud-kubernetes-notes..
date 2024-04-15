@@ -7,10 +7,10 @@ Security in kubernetes
 - Hum "TLS certificate" ko dekhy gye or dekhy gye k kis tarha sa various kubernetes component secure hoty hn  in certificate ki waja sa.
 - agr ap na cluster provision kya ha tu ap definatily TLS certificate ma issue face kery gye.. so we will see it and make it easy..
 
-is k bd ap security of certificate k issue na nikal jye gye...
+is k bd ap security of certificate k issue sa nikal jye gye...
 
 - we also learn about "autherization and specfically learn RBAC" 
-- we also learn how to "secure your image" with security content..
+- we also learn how to "secure your image" with security context..
 - And finally learn "network policies"
 
 Security Primitives in kubernetes
