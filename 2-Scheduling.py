@@ -257,7 +257,7 @@ node affinity ma pod per hum restrict ker dety hn k us na kis kis node ma schedu
 
 so humy asi restriction set kerni hogi node or pod dono per k. jis pod ko kha jaye k us na kis node ma schedule hona ha wo waha per hi ho or node ko kha jye k in pods k alwa asy pods jin per koi rule set ni ha inko tum na schedule ni hony dena..
 
-y dono kam **taints/toleration or node affinity** k combination sa hosakhty hn.. mean node per taints lga do... or pod per toleration + node affinity...
+y dono kam **taints/toleration or node affinity** k combination sa hosakhty hn.. **mean node per taints lga do... or pod per toleration + node affinity...**
 
 is sa y hoga k taint lgny sa node non toleration pods ko accept ni kery gi.. or pod per toleration lgny sa pod tolerate hojye gi(abi pod unbound hogi wo kisi b node ma schedule hoskhti hn) or node affinity pod per lgnye sa pod bound hojye k k us na taint wali node ma hi jana h... id tarha sa jin pods ko hum jin node ma jany k lye khy gye wo waha hi jye gi or baki pods un node ma ni jye gi... because node per taint set ha or wo non toleration pod ko accept ni kery ga...
 
